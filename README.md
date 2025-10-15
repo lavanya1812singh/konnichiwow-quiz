@@ -31,5 +31,16 @@ An interactive quiz web app built for the **KonnichiWow Frontend Developer Inter
 
 1. Clone this repository  
    ```bash
-   git clone https://github.com/LAVANYA SINGH/konnichiwow-quiz.git
+   git clone https://github.com/lavanya1812singh/konnichiwow-quiz.git
    cd konnichiwow-quiz
+
+## 🖼️ Screenshots
+
+### 💻 Desktop View
+![Laptop View](./public/LAPTOP%20VIEW.jpg)
+
+### 💻 Alternate Desktop View
+![Laptop View 2](./public/LAPTOP%20VIEW%202.jpg)
+
+### 📱 Mobile View
+![Mobile View](./public/MOBILE%20VIEW.jpg)
