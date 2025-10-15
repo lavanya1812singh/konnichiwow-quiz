@@ -1,0 +1,102 @@
+:root {
+  --primary: #ec265f;
+  --secondary: #26ecb4;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fdfdfd;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px 25px;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+.progress {
+  background: #eee;
+  height: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.bar {
+  height: 10px;
+  background: var(--primary);
+  border-radius: 10px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option {
+  background: #fafafa;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option:hover {
+  background: var(--secondary);
+  color: white;
+  border-color: var(--secondary);
+}
+
+.option.correct {
+  background: #c8facc;
+  border-color: green;
+}
+
+.option.wrong {
+  background: #ffcccc;
+  border-color: red;
+}
+
+.explanation {
+  margin-top: 15px;
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.next {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin-left: auto;
+}
+
+.next:hover {
+  background: var(--secondary);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
