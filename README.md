@@ -44,3 +44,11 @@ An interactive quiz web app built for the **KonnichiWow Frontend Developer Inter
 
 ### 📱 Mobile View
 ![Mobile View](./public/MOBILE%20VIEW.jpg)
+
+---
+
+## 📢 Note
+
+This project was created as part of the **Frontend Developer Intern Task** for **KonnichiWow**.  
+The repository and live demo are publicly accessible **only for evaluation purposes** during the review period.  
+All rights to the submitted code belong exclusively to **KonnichiWow**.
